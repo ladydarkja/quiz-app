@@ -2,12 +2,33 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+:root {
+  --krauts-color1: #8963ba;
+  --krauts-color2: #1b998b;
+  --krauts-color3: #f5e663;
+  --krauts-color4: #f46036;
+  --krauts-color5: #4bb3fd;
+}
 h1 {
   font-size: 2rem;
-  color: purple;
+  color: var(--krauts-color1);
   text-decoration: underline;
   display: flex;
   justify-content: center;
+}
+header {
+  background-image: linear-gradient(
+    to bottom,
+    var(--krauts-color5) 60%,
+    var(--krauts-color3) 100%
+  );
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
 }
 .question-card {
   display: flex;
@@ -18,4 +39,12 @@ fieldset {
   border: none;
   display: flex;
   flex-direction: row;
+}
+a {
+  color: var(--krauts-color3);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
