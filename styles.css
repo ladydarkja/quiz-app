@@ -30,6 +30,9 @@ header {
   right: 0;
   height: 100px;
 }
+section {
+  margin: 2rem;
+}
 .question-card {
   display: flex;
   flex-direction: column;
@@ -43,8 +46,8 @@ fieldset {
 a {
   color: var(--krauts-color3);
 }
-footer {
+nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
