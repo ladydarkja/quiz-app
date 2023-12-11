@@ -14,3 +14,8 @@ h1 {
   flex-direction: column;
   text-align: center;
 }
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: row;
+}
