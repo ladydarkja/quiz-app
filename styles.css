@@ -18,6 +18,10 @@ h1 {
   display: flex;
   justify-content: center;
 }
+h2 {
+  font-size: 1em;
+  color: var(--krauts-color2);
+}
 header {
   border-bottom: #1b998b 10px solid;
   margin: 0;
@@ -27,6 +31,8 @@ header {
   left: 0;
   right: 0;
   height: 6rem;
+  background-color: white;
+  z-index: 2;
 }
 section {
   position: relative;
@@ -37,7 +43,24 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
+  top: 6rem;
+  border: var(--krauts-color4) 0.15em solid;
+  padding: 0.25em;
+  margin: 0.5em;
+  border-radius: 0.5em;
 }
+button {
+  background-color: var(--krauts-color5);
+  color: white;
+  border: var(--krauts-color5) 0.15em solid;
+  border-radius: 0.25em;
+}
+/*button :hover {
+  background-color: var(--krauts-color3);
+  color: black;
+  border: var(--krauts-color3) 0.15em solid;
+  border-radius: 0.25em;
+}*/
 fieldset {
   border: none;
   display: flex;
