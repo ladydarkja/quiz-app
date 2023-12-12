@@ -17,20 +17,18 @@ h1 {
   justify-content: center;
 }
 header {
-  background-image: linear-gradient(
-    to bottom,
-    var(--krauts-color5) 60%,
-    var(--krauts-color3) 100%
-  );
+  border-bottom: #1b998b 10px solid;
   margin: 0;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 6rem;
 }
 section {
+  position: relative;
+  top: 4rem;
   margin: 2rem;
 }
 .question-card {
@@ -46,6 +44,10 @@ fieldset {
 a {
   color: var(--krauts-color3);
 }
+/*footer {
+  position: fixed;
+  bottom: 0;
+}*/
 nav {
   display: flex;
   flex-direction: row;
