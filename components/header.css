@@ -1,0 +1,7 @@
+h1 {
+  font-size: 2rem;
+  color: var(--krauts-color1);
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}

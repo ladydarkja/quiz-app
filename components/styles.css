@@ -1,3 +1,5 @@
+@import url(header.css);
+
 *,
 *::before,
 *::after {
@@ -11,13 +13,13 @@
   --krauts-color4: #f46036;
   --krauts-color5: #4bb3fd;
 }
-h1 {
+/*h1 {
   font-size: 2rem;
   color: var(--krauts-color1);
   text-decoration: underline;
   display: flex;
   justify-content: center;
-}
+}*/
 h2 {
   font-size: 1em;
   color: var(--krauts-color2);
