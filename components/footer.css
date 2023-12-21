@@ -1,11 +1,21 @@
 footer {
   position: fixed;
   bottom: 1rem;
+  background-size: cover;
+  background-color: var(--krauts-color1);
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  z-index: 2;
 }
-nav {
-  position: relative;
-  align-items: stretch;
+.nav_container {
+  display: flex;
+  text-align: center;
 }
+
 a {
-  color: var(--krauts-color3);
+  color: #ffff;
 }

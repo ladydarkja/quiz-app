@@ -1,21 +1,22 @@
 h2 {
-  font-size: 1em;
+  font-family: Palatino, Arial, sans-serif;
+  font-size: 1.5em;
   color: var(--krauts-color2);
 }
 section {
   position: relative;
-  top: 4rem;
-  margin: 2rem;
-}
-.question-card {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   top: 6rem;
-  border: var(--krauts-color4) 0.15em solid;
+  margin: 2rem;
+  border: var(--krauts-color5) 0.15em solid;
   padding: 0.25em;
   margin: 0.5em;
   border-radius: 0.5em;
+}
+.question-card {
+  display: flex;
+  flex-direction: row;
+  text-align: space-evenly;
+  top: 6rem;
 }
 
 fieldset {
