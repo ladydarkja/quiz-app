@@ -1,7 +1,26 @@
 h1 {
-  font-size: 2rem;
-  color: var(--krauts-color1);
-  text-decoration: underline;
+  font-family: Palatino, serif;
+  font-size: 3.5vh;
+  color: #ffff;
+  position: relative;
+  top: 0.5em;
   display: flex;
   justify-content: center;
+}
+.header {
+  border-bottom: #1b998b 10px solid;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  background-color: var(--krauts-color1);
+  z-index: 2;
+}
+img {
+  float: left;
+  width: 20%;
+  height: auto;
 }

@@ -1,0 +1,25 @@
+h2 {
+  font-size: 1em;
+  color: var(--krauts-color2);
+}
+section {
+  position: relative;
+  top: 4rem;
+  margin: 2rem;
+}
+.question-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  top: 6rem;
+  border: var(--krauts-color4) 0.15em solid;
+  padding: 0.25em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: row;
+}

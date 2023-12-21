@@ -1,0 +1,6 @@
+button {
+  background-color: var(--krauts-color5);
+  color: white;
+  border: var(--krauts-color5) 0.15em solid;
+  border-radius: 0.25em;
+}
