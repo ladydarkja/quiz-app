@@ -1,4 +1,11 @@
-button {
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.answer-button {
+  display: flex;
+  justify-content: center;
   background-color: var(--krauts-color5);
   color: white;
   border: var(--krauts-color5) 0.15em solid;
